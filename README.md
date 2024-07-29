@@ -16,7 +16,7 @@ This project is a collection of advanced and customizable configuration scripts 
 > Please report any issues or errors by opening an issue here on GitHub.
 
 # Keybinds
-Check out all the default keybinds available in this config by reviewing the `autoexec.cfg` file.
+Check out all the default [Keybinds](https://github.com/7eventy7/STABILITY-COUNTER-STRIKE-CONFIG/blob/main/KEYBINDS.md) available in this config by reviewing the `autoexec.cfg` file.
 
 > It's a good idea to review the keybinds before changing them during installation.     
 > Failing to do so can result in overwriting keybinds and causing various issues.
