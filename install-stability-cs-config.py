@@ -95,10 +95,14 @@ def customize_config(config_content):
         "Invalid input. Please enter 'yes' or 'no'."
     )
     if remove_recoil_bind.lower() in ['yes', 'y']:
-        start_index = config_content.find("// TOGGLE STATIC & RECOIL CROSSHAIR BIND")
-        end_index = config_content.find("//--------------------------------------------------------------------------------------------------------", start_index)
-        if start_index != -1 and end_index != -1:
-            config_content = config_content[:start_index] + config_content[end_index:]
+        sections = config_content.split("//--------------------------------------------------------------------------------------------------------")
+        for i, section in enumerate(sections):
+            if "// TOGGLE STATIC & RECOIL CROSSHAIR BIND" in section:
+                # Remove the entire section
+                sections.pop(i)
+                break
+        # Rejoin the sections
+        config_content = "//--------------------------------------------------------------------------------------------------------".join(sections)
 
     return config_content
 
