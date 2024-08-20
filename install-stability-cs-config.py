@@ -10,7 +10,7 @@ def display_startup_screen():
     print("=" * 70)
     print(" " * 15 + "STABILITY-COUNTER-STRIKE-CONFIG INSTALLER")
     print("=" * 70)
-    print(" " * 25 + "v1.0.0 -- July 29, 2024")
+    print(" " * 25 + "v1.1.0 -- August 20 2024")
     print("=" * 70)
     print("\nThis script will help you install the Stability Counter-Strike Config.")
     print("Please follow the instructions as prompted.\n")
