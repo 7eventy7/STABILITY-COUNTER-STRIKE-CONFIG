@@ -44,9 +44,6 @@
 |-------------|---------------------------------------|---------------|
 | shift       | toggles tactical radar scale & sprint | hold          |
 | alt         | drops bomb and keeps knife equipped   | press         |
-| space       | performs jump and duck simultaneously | press         |
-| n           | performs jump-throw                   | press         |
-| m           | performs run-jump-throw               | press         |
 | capslock    | toggles static and recoil crosshair   | press         |
 
 #### Grenade Selection
